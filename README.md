@@ -31,7 +31,7 @@ which includes the `FileSystem` interface and its default implementation - `Syst
 There are several `kotlinx-io` modules:
 - [kotlinx-io-bytestring](./bytestring) - provides `ByteString`.
 - [kotlinx-io-core](./core) - provides IO primitives (`Buffer`, `Source`, `Sink`), filesystems support, depends on `kotlinx-io-bytestring`.
-- [kotlinx-io-okio](./integration/okio) - bridges `kotlinx-io` and `Okio` `ByteString`, `kotlinx.io.RawSource` and `okio.Source`, `kotlinx.io.RawSink` and `okio.Sink`. 
+- [kotlinx-io-okio](./integration/kotlinx-io-okio) - bridges `kotlinx-io` and `Okio` `ByteString`, `kotlinx.io.RawSource` and `okio.Source`, `kotlinx.io.RawSink` and `okio.Sink`. 
 
 ## Using in your projects
 
